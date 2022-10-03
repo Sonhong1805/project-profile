@@ -1,0 +1,232 @@
+@font-face {
+    font-family: outfit;
+    src: url('/font/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: lato;
+    src: url('/font/lato/Lato-Black.ttf');
+}
+
+@font-face {
+    font-family: heist;
+    src: url('/font/heist/Heist\ Regular.otf');
+}
+
+@font-face {
+    font-family: poppins;
+    src: url('/font/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('/font/montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main: #011A2C;
+    --red: #F21967;
+    --white: #ffffff;
+    --grey: rgba(255, 255, 255, 0.559);
+}
+
+html body {
+    background-color: var(--main);
+    width: 1920px;
+    height: 940px;
+}
+
+.prj_left {
+    width: 1280px;
+    height: 940px;
+    float: left;
+}
+
+.prj_right {
+    width: 640px;
+    height: 940px;
+    float: right;
+}
+
+.container.prj_renex {
+    margin-left: 84px;
+}
+
+.prj_heading {
+    color: white;
+    font-family: heist;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.prj_text {
+    color: rgba(255, 255, 255, 0.559);
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 55px 0px 67px;
+}
+
+.prj_name {
+    color: white;
+    font-family: outfit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.64px;
+}
+
+.prj_info {
+    color: rgba(255, 255, 255, 0.559);
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 8px;
+}
+
+.prj_line {
+    width: 448px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.316);
+    margin: 24px 0px;
+}
+
+.prj_slt-wrapper.container {
+    margin-left: 84px;
+}
+
+.prj_slt-heading {
+    color: white;
+    font-family: heist;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.prj_slt-text {
+    color: rgba(255, 255, 255, 0.559);
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 51px 0px 17px;
+}
+
+.prj_slt-img {
+    width: 83px;
+    height: 154px;
+}
+
+.prj_slt-para {
+    color: rgba(255, 255, 255, 0.559);
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 51px 82px 0px 29px;
+}
+
+.prj_idea-wrapper.container {
+    margin-left: 84px;
+}
+
+.prj_idea-heading {
+    color: white;
+    font-family: heist;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.prj_idea-text {
+    color: rgba(255, 255, 255, 0.559);
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 51px 0px 56px;
+}
+
+.prj_idea-img {
+    width: 40px;
+    height: 40px;
+}
+
+.prj_idea-para {
+    color: white;
+    font-family: outfit;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    padding: 0px 85px 0px 64px;
+}
+
+.prj_final-wrapper.container {
+    margin-left: 84px;
+}
+
+.prj_final-heading {
+    color: white;
+    font-family: heist;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.prj_final-text {
+    color: rgba(255, 255, 255, 0.559);
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 51px 0px 36px;
+}
+
+.prj_final-content.d-flex {
+    margin-bottom: 106px;
+}
+
+i.fa-solid.fa-heart.icon_heart {
+    font-size: 33px;
+    color: var(--red);
+    padding-right: 16px;
+}
+
+.prj_final-thank {
+    color: rgba(255, 255, 255, 0.559);
+    font-family: 'Playfair Display SC', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 53px;
+    font-style: italic;
+}
+
+.prj_txt-left,
+.prj_txt-right {
+    color: white;
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.prj_right {
+    display: none;
+}
+
+.prj_right.active {
+    display: flex;
+}
+
+@media screen and (max-width:767px) {}
+
+@media screen and (min-width:768px) and (max-width:1200px) {}
+
+@media screen and (min-width:1201px) and (max-width:1200px) {}
