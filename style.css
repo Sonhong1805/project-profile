@@ -1,21 +1,21 @@
     @font-face {
         font-family: outfit;
-        src: url('/font/outfit/Outfit-VariableFont_wght.ttf');
+        src: url('/project-profile/font/outfit/Outfit-VariableFont_wght.ttf');
     }
     
     @font-face {
         font-family: lato;
-        src: url('/font/lato/Lato-Black.ttf');
+        src: url('/project-profile/font/lato/Lato-Black.ttf');
     }
     
     @font-face {
         font-family: heist;
-        src: url('/font/heist/Heist\ Regular.otf');
+        src: url('/project-profile/font/heist/Heist\ Regular.otf');
     }
     
     @font-face {
         font-family: poppins;
-        src: url('/font/poppins/Poppins-Regular.ttf');
+        src: url('/project-profile/font/poppins/Poppins-Regular.ttf');
     }
     
     * {
@@ -80,7 +80,7 @@
     }
     
     .home_content {
-        background-image: url('/image/background.png');
+        background-image: url('/project-profile/image/background.png');
         height: 940px;
         position: relative;
     }
@@ -489,7 +489,7 @@
     }
     
     .projects {
-        background-image: url('/image/background_02.png');
+        background-image: url('/project-profile/image/background_02.png');
         height: 940px;
     }
     
@@ -705,7 +705,7 @@
     }
     
     .testimonials {
-        background-image: url('/image/background_03.png');
+        background-image: url('/project-profile/image/background_03.png');
         height: 940px;
         position: relative;
     }
@@ -804,21 +804,21 @@
     }
     
     span.swiper-pagination-bullet:nth-child(1) {
-        background-image: url('/image/man_01.png');
+        background-image: url('/project-profile/image/man_01.png');
         background-color: transparent;
         background-size: contain;
         border-radius: 50px 50px 50px 50px;
     }
     
     span.swiper-pagination-bullet:nth-child(2) {
-        background-image: url('/image/man_02.png');
+        background-image: url('/project-profile/image/man_02.png');
         background-size: contain;
         background-color: transparent;
         border-radius: 50px 50px 50px 50px;
     }
     
     span.swiper-pagination-bullet:nth-child(3) {
-        background-image: url('/image/man_03.png');
+        background-image: url('/project-profile/image/man_03.png');
         background-size: contain;
         background-color: transparent;
         border-radius: 50px 50px 50px 50px;
@@ -1062,7 +1062,7 @@
     }
     
     .contact {
-        background-image: url('/image/background_04.png');
+        background-image: url('/project-profile/image/background_04.png');
         height: 940px;
         background-size: cover;
     }
